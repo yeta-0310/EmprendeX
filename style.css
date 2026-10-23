@@ -1,0 +1,66 @@
+body{
+    font-family: Baguet Script, cursive;
+    margin: 50;
+    color: rgb(21, 58, 221);
+}
+
+.hero {
+ min-height: 80vh;
+ background: linear-gradient(rgba(228, 244, 255, 0.65), rgba(228, 244, 255, 0.65)),
+ url("https://academy.wortev.com/wp-content/uploads/2024/09/Los-Simpson-lecciones-de-sus-emprendedores-WORTEV.jpg");
+ background-size: cover;
+ background-position: center;
+ padding: 70px  40px;
+}
+h2 {
+    background-color: #5588f7 ;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.navbar {
+    padding: 8px;
+    background-color: #5588f7;
+    color: #084298;
+}
+.navbar-brand {
+    font-size: 30px;
+    color: #659bec;
+}
+.navbar-link {
+    margin-left: 15px;
+    color: #5592ec;
+}
+.navbar-link:hover {
+    color: blueviolet;
+}
+.hero h1 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.hero p {
+    color: black;
+}
+.btn {
+    border-radius: #084298;
+    padding: 10px 20px;
+}
+.btn-primary {
+    background-color: #084298;
+    border: none;
+}
+.form-control,
+.form-select {
+    border-radius: 8px;
+}
+
+form button {
+    background-color: #5589f7;
+    color: rgb(50, 9, 197);
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #3f6fd1;
+}
